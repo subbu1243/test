@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    width: 100%;
+}
+.header_logo{
+    height: 100px;
+    width: 100px;
+}
+.custom-search {
+    width: 400px; /* or any width you prefer */
+  }
+.custom-search-button{
+    display: block;
+
+}
+   @media (max-width: 768px) {
+    .custom-search {
+      width: 100%; /* Full width on smaller screens */
+      display: none;
+    }
+    .custom-search-button{
+    display: none;
+
+}
+.content{
+    margin-top: 0px;
+}
+.banner-image{
+    height:auto;
+    background-size: cover;       /* OR use contain based on behavior */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.card{
+    height:auto;
+    max-width: 500px;
+    margin-top: 5px;
+   
+    border-radius: 5px;
+}
+.sub-image{
+    height: auto;
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+}
+.profile,.wishlist,.Bag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.Clothing,.Foot-ware,.Accessories,.Home,.About,.Beauty{
+    font-family: Serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.Clothing:hover,.Foot-ware:hover,.Accessories:hover,.Home:hover,.About:hover,.Beauty:hover,.profile:hover,.wishlist:hover,.Bag:hover{
+    transform: scale(1.1);
+}
+.Content{
+    margin-top: 100px;
+}
+.banner-image{
+    height:500px;
+    background-size: cover;       /* OR use contain based on behavior */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+.sub-content{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.sub-image{
+    height: 300px;
+    width: auto;
+    
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+.sub-text{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.card{
+    height: 350px;
+    width: 250px;
+    margin: 2px;
+   
+    border-radius: 8px;
+}
+.card,h4{
+    font-family: Serif;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+.footer{
+    padding: 10px;
+    height: auto;
+    background-color: rgb(236, 228, 228);
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+    text-align: center;
+    color:rgb(71, 68, 68);
+    font-family: serif;
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
